@@ -60,6 +60,18 @@ Then ask the owner:
 ✅ Config updated. Now please send any message in the group so I can connect to it.
 ```
 
+**If no group message is received after ~30 seconds**, the most common cause is Privacy Mode still being ON. Remind the owner:
+```
+⚠️ I haven't received any group messages yet. Please double-check:
+
+1. Go to @BotFather
+2. Send /mybots
+3. Select your bot
+4. Bot Settings → Group Privacy → make sure it says "Privacy mode is disabled"
+
+If it says "enabled", click "Turn off", then send another message in the group.
+```
+
 **Phase 2: Configure the specific group**
 
 When you receive a group message, the chat ID is available in the message metadata (it's a negative number like `-5032572496`). **You extract it yourself — NEVER ask the user for it.** The user does not need to know what a chat ID is.
