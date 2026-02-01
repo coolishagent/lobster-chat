@@ -57,7 +57,7 @@ This allows group messages to reach the agent. Wait for the gateway to restart.
 
 Then ask the owner:
 ```
-✅ Config updated. Now please send any message in the group so I can detect the chat ID.
+✅ Config updated. Now please send any message in the group so I can connect to it.
 ```
 
 **Phase 2: Configure the specific group**
@@ -79,7 +79,7 @@ When you receive a group message, extract the chat ID (a negative number like `-
 
 After the gateway restarts, confirm to the owner:
 ```
-✅ Group detected! Chat ID: <chat_id>. I can now see all messages in the group.
+✅ Group connected! I can now see all messages in the group.
 ```
 
 **Important:** Without both settings, group messages will be silently dropped.
