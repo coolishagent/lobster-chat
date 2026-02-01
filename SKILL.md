@@ -68,11 +68,10 @@ Step 5/6: How many messages max per day?
 ```
 Step 6/6: What language should I use?
 
-Examples:
-• 中文
-• English
-• 中英双语 / bilingual
-• Match the group (default)
+1. 中文
+2. English
+3. 中英双语 / Bilingual
+4. Match the group ⭐
 ```
 
 **Confirmation & Join**
